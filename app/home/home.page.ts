@@ -41,23 +41,28 @@ export class HomePage {
     const markers: Marker[] = [
       {
         coordinate: {
-          lat: 50.868941532346,
-          lng: 4.46055255253089,
+          lat:  50.49783090374445,
+          lng: 4.799153337442611,
+        
+    
         },
-        title: 'Magasin Airsoft Belgium',
+        title: 'Bravo Factory',
       },
       {
         coordinate: {
-          lat: 50.64099325853918,
-          lng: 2.97000837957304,
+          lat:  50.78339995576469,
+          lng: 3.109437735894947,
+
+
         },
-        title: 'Armurerie Defense Airsoft Paintball PBGk',
+        title: 'Safe Zone Airsoft',
       },
 
       {
         coordinate: {
-          lat:  51.08387313155553,
-          lng: 4.566395586506334,
+          lat:  51.08370906924777,
+          lng: 4.566367817122088,
+       
         },
         title: 'FORT KNOX AIRSOFT',
         
@@ -65,8 +70,9 @@ export class HomePage {
 
       {
         coordinate: {
-          lat:  48.54576798374542,
-          lng: 7.576467025034002,
+          lat:  48.54288999767606,
+          lng: 7.576979268927996,
+
       
         },
         title: 'Flams Airsoft Team Strasbourg',
@@ -81,9 +87,9 @@ export class HomePage {
     this.map.setOnMarkerClickListener(async (marker) => {
       let modalComponent: any;
 
-      if (marker.title === 'Magasin Airsoft Belgium') {
+      if (marker.title === 'Bravo Factory') {
         modalComponent = StorePage;
-      } else if (marker.title === 'Armurerie Defense Airsoft Paintball PBGk') {
+      } else if (marker.title === 'Safe Zone Airsoft') {
         modalComponent = Store2Page; 
       } else if (marker.title === 'FORT KNOX AIRSOFT') {
         modalComponent = TerrainPage;
