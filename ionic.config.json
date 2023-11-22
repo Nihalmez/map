@@ -1,0 +1,7 @@
+{
+  "name": "Terrain-Map",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
