@@ -1,24 +1,61 @@
 <ion-header>
-    <ion-toolbar>
-      <ion-title class="long-text">Magasin Airsoft Belgium</ion-title>
-    </ion-toolbar>
-  </ion-header>
-  
-  <ion-content class="ion-padding">
-    <ion-card>
+  <ion-toolbar>
+    <ion-title>Description du Magasin</ion-title>
+  </ion-toolbar>
+</ion-header>
 
-  
-      <ion-card-content>
+<ion-content class="ion-padding" style="overflow-y: auto">
 
+ 
+  <ion-card>
+    <ion-img src="assets/Bravo Factory.png"></ion-img>
+    <ion-card-header>
+      <ion-card-title>Bravo Factory</ion-card-title>
+      <ion-card-subtitle>Rue de Gembloux 12A, 5080 La Bruyère</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <p>
+        Bienvenue à Bravo Factory, l'ultime destination pour les amateurs d'Airsoft. Niché dans un environnement unique, notre terrain propose des défis stimulants avec ses fortifications stratégiques, ses zones de jeu variées et son ambiance conviviale.
+      </p>
+      
+      <br/>
+      
+      <h2>Horaires</h2>
+      <ion-list>
         <ion-item>
-          <ion-label>Heures d'ouverture</ion-label>
-          <ion-note>{{ storeHours }}</ion-note>
+          <ion-label>Lundi</ion-label>
+          <ion-text slot="end">Fermé</ion-text>
         </ion-item>
-  
         <ion-item>
-          <ion-label>Descriptif</ion-label>
-          <ion-note>{{ storeDescription }}</ion-note>
+          <ion-label>Mardi</ion-label>
+          <ion-text slot="end">09:30–13:00 <br/>
+            13:30–18:00</ion-text>
         </ion-item>
-      </ion-card-content>
-    </ion-card>
-  </ion-content>
+        <ion-item>
+          <ion-label>Mercredi</ion-label>
+          <ion-text slot="end">11:00 - 19:00</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-label>Jeudi</ion-label>
+          <ion-text slot="end">09:30–13:00 <br/>
+            13:30–18:00</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-label>Vendredi</ion-label>
+          <ion-text slot="end">09:30–13:00 <br/>
+            13:30–18:00</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-label>Samedi</ion-label>
+          <ion-text slot="end">09:30–13:00 <br/>
+            13:30–18:00</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-label>Dimanche</ion-label>
+          <ion-text slot="end">Fermé</ion-text>
+        </ion-item>
+       
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
